@@ -59,3 +59,7 @@ html.no-aos [data-aos]{opacity:1!important;transform:none!important}
 .form-note a{color:inherit;font-weight:700}.form-note a:hover{color:var(--amber)}
 .footer-links{display:flex;gap:16px;flex-wrap:wrap}.footer-links a{color:#aabcca;text-decoration:none}.footer-links a:hover{color:var(--gold)}
 @media(max-width:800px){.nav-info-link{display:none}.footer-links{justify-content:center}}
+
+/* ===== Aviso de projeto demonstrativo ===== */
+.portfolio-notice{width:100%;margin:0;color:#8395a8;font-size:.7rem;text-align:center}
+@media(max-width:800px){.portfolio-notice{padding-top:4px}}
