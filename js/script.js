@@ -154,16 +154,9 @@ document.addEventListener('DOMContentLoaded', () => {
       criadoEm: new Date().toISOString()
     };
 
-    const total = saveLead(lead);
+    saveLead(lead);
     const firstName = lead.nome.split(' ')[0];
-
-    modalText.textContent = `${firstName}, sua inscrição foi registrada. Nossa equipe entrará em contato em breve pelo e-mail ${lead.email}.`;
-    modalMeta.textContent = `Registro #${String(total).padStart(3, '0')} salvo localmente · ${new Date().toLocaleString('pt-BR')}`;
-    openModal();
-
-    message.textContent = 'Inscrição realizada com sucesso!';
-    message.classList.add('success');
-    form.reset();
+    window.location.href = `obrigado.html?nome=${encodeURIComponent(firstName)}`;
   });
 
   // Expõe utilitário de inspeção no console para simular consulta ao "banco".

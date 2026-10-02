@@ -52,3 +52,10 @@ body.modal-open{overflow:hidden}
 html.no-aos [data-aos]{opacity:1!important;transform:none!important}
 @media(prefers-reduced-motion:reduce){[data-aos]{transition:none!important;opacity:1!important;transform:none!important}}
 @media(max-width:520px){.nav-right{gap:12px}.theme-toggle{width:40px;height:40px;font-size:.9rem}.modal-card{padding:38px 22px 28px}.accordion-trigger{font-size:.98rem;padding:20px 2px}}
+
+/* ===== Navegação e páginas de conteúdo ===== */
+.nav-info-link{color:#dce7f0;text-decoration:none;font-size:.83rem;font-weight:600}.nav-info-link:hover{color:var(--gold)}
+.section-link{margin:30px 0 0}.section-link a{color:var(--amber);font-weight:700;text-decoration:none}.section-link a i{margin-left:5px}.section-link a:hover{color:var(--navy-2)}
+.form-note a{color:inherit;font-weight:700}.form-note a:hover{color:var(--amber)}
+.footer-links{display:flex;gap:16px;flex-wrap:wrap}.footer-links a{color:#aabcca;text-decoration:none}.footer-links a:hover{color:var(--gold)}
+@media(max-width:800px){.nav-info-link{display:none}.footer-links{justify-content:center}}
